@@ -18,7 +18,4 @@
                  slipset/deps-deploy {:mvn/version "RELEASE"}}
           :ns-default build}
   :deploy {:replace-deps {slipset/deps-deploy {:mvn/version "RELEASE"}}
-           :exec-fn deps-deploy.deps-deploy/deploy
-           :exec-args {:installer :remote :artifact "target/clojurescript-sample-0.0.1-SNAPSHOT.jar"}}
-  }
- }
+           :exec-fn deps-deploy.deps-deploy/deploy}}}
